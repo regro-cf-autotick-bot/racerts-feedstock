@@ -1,5 +1,5 @@
 {% set name = "racerts" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/racerts-{{ version }}.tar.gz
-  sha256: 200e7fc2e6f7e289fd15c986c7093c0e6ed908648cbf73b2573e5b6956f9c916
+  sha256: d004e45249a08b0a1da75adae072aba5d26cfc2a742ed1d168e6596a0185a128
 
 build:
   entry_points:
